@@ -1,4 +1,12 @@
 # OpenData @ HackAveiro
+ 
+**Description**
+ 
+ *icalgen.py* calls an HTTP endpoint creating a calendar from MoveAveiro's source of information.
 
-*icalgen.py* calls an API endpoint creating a calendar from MoveAveiro's source of information.
+**Run**
 
+ - *Clone this repo.*
+ - $ virtualenv -p python3 .env
+ - $ pip install -r requirements.txt
+ - $ ./icalgen.py
